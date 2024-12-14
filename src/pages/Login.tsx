@@ -89,7 +89,6 @@ export const Login = () => {
                 value={formData.role}
                 onChange={(e) => setFormData({ ...formData, role: e.target.value as Role })}
               >
-                <option value={Role.USER}>User</option>
                 <option value={Role.ADMIN}>Admin</option>
                 <option value={Role.OPERATOR}>Operator</option>
               </select>
