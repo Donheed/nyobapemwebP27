@@ -10,7 +10,7 @@ export const Login = () => {
   const [formData, setFormData] = useState({
     username: '',
     password: '',
-    role: Role.USER,
+    role: Role.ADMIN,
   });
   const [error, setError] = useState('');
 
